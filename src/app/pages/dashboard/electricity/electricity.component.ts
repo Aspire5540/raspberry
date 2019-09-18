@@ -19,7 +19,7 @@ export class ElectricityComponent implements OnDestroy {
 
   type = 'week';
   types = ['week', 'month', 'year'];
-
+  xx:any;
   currentTheme: string;
   themeSubscription: any;
 

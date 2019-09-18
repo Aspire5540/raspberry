@@ -22,7 +22,7 @@ export class ElectricityComponent implements OnDestroy {
   xx:any;
   currentTheme: string;
   themeSubscription: any;
-
+  xx:any;
   constructor(private electricityService: ElectricityData,
               private themeService: NbThemeService) {
     this.themeService.getJsTheme()
